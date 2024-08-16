@@ -5,7 +5,8 @@ public class Jugador extends Futbolista {
 	public byte dorsal;
 	
 	public Jugador() {
-		this(null, 0, null, (short) 289, (byte) 7);
+		this.golesMarcados = 289;
+		this.dorsal = 7;
 	}
 	
 	public Jugador(String nombre, int edad, String posicion, short golesMarcados, byte dorsal) {
